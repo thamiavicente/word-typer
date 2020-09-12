@@ -8,6 +8,8 @@
 ![Badge](https://img.shields.io/static/v1?label=Language&message=jQuery&color=3383FF&style=flat)
 
 ## :clipboard: Description
+<p>To learn javascript, I made this game that helps people to type very fast and know a little portuguesse.</p>
+
 ### What has it?
 - Word/Character counter
 - Push data from external api
@@ -52,6 +54,15 @@ git clone https://github.com/thamiavicente/catbike
 ## :ballot_box_with_check: Open Tasks
 
 - Adapt the website for responsive design
+
+## :camera: Image Rights
+|Imagem ID|Author|Link|
+| -------- | -------- | -------- |
+|card1.jpg|Ketut Subiyanto|[Pexels](https://www.pexels.com/pt-br/foto/avental-uniforme-preto-negro-4350202/)|
+|card2.jpg|sergio souza|[Unsplash](https://unsplash.com/photos/tncsQE63ENU)|
+|slide1.jpg|Pixabay|[Pexels](https://www.pexels.com/pt-br/foto/abstrato-alerta-alfabeto-arranhar-278887/)|
+|slide2.jpg|cottonbro|[Pexels](https://www.pexels.com/pt-br/foto/espaco-em-branco-espaco-vazio-borrao-mancha-4065617/)
+|slide3.jpg|Dark Indigo|[Pexels](https://www.pexels.com/pt-br/foto/sombrio-escuro-tecnologia-borrao-2416973/)|
 
 ## :lock: Licence
 <p>MIT License</p>
