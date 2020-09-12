@@ -2,8 +2,8 @@
 
 ![Badge](https://img.shields.io/static/v1?label=Status&message=Conclued&color=brigthgreen&style=flat)
 ![Badge](https://img.shields.io/static/v1?label=Licence&message=MIT&color=blueviolet&style=flat)
-![Badge](https://img.shields.io/static/v1?label=Language&message=HTML_5&color=red&style=flat)
-![Badge](https://img.shields.io/static/v1?label=Language&message=CSS_3&color=orange&style=flat)
+![Badge](https://img.shields.io/static/v1?label=Language&message=HTML%205&color=red&style=flat)
+![Badge](https://img.shields.io/static/v1?label=Language&message=CSS%203&color=orange&style=flat)
 ![Badge](https://img.shields.io/static/v1?label=Language&message=JavaScript&color=yellow&style=flat&)
 ![Badge](https://img.shields.io/static/v1?label=Language&message=jQuery&color=3383FF&style=flat)
 
