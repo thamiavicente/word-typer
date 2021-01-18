@@ -5,7 +5,7 @@ function randomPhrase() {
     $("#spinner").show(); //mostra a barra de carregamento
     $(".phrase-to-type").hide(); //esconde a frase a ser digitada
 
-    $.get("http://localhost:3000/phrases", changePhrase) //puxa os dados da api no servidor e executa uma funcao
+    $.get("https://github.com/thamiavicente/word-typer/blob/master/servidor/app/api/phrases.js", changePhrase) //puxa os dados da api no servidor e executa uma funcao
     .fail(function(){ //caso falhe...
         $("#error").show(); //mostra a mensagem de erro
         setTimeout(function(){ 
@@ -29,7 +29,7 @@ function changePhrase(data) {
 
 function updateMaxField(data) {
     //essa funcao serve para que o maximo na caixa de selecao do id da frase (pelas setas) seja o tamanho do array de frases
-    $.get("http://localhost:3000/phrases", function(data){ //puxa o conteudo da api
+    $.get("https://github.com/thamiavicente/word-typer/blob/master/servidor/app/api/phrases.js", function(data){ //puxa o conteudo da api
         var field = $("#phrase-id-field"); //puxa o campo de selecao
         field.attr("max", data.length-1); //insere como atributo max o tamanho do array -1 ja que a contagem comeca em 0
     });
@@ -42,7 +42,7 @@ function searchPhrase() {
     var idPhrase = $("#phrase-id-field").val(); //puxa o conteudo do campo de selecao da frase
     var data = {id: idPhrase}; //cria um parametro a ser encontrado na api
 
-    $.get("http://localhost:3000/phrases", data, changePhraseChosen) //puxa o conteudo da api envia um parametro e executa uma funcao
+    $.get("https://github.com/thamiavicente/word-typer/blob/master/servidor/app/api/phrases.js", data, changePhraseChosen) //puxa o conteudo da api envia um parametro e executa uma funcao
     .fail(function(){ //caso falhe...
         $("#error").show(); //mostra a mensagem de erro
         setTimeout(function(){
